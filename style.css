@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(182, 173, 173, 0.459);
+  
+}
+
+.container {
+  color: black;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px outset blue;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="wha"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+select {
+  text-align: center;
+  width: 99%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #5e42c4;
+  border-radius: 5px;
+  color: black;
+}
+
+input[type="url"] {
+  width: 99%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #5e42c4;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+input[type="url"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+input[type="url"] {
+  width: 99%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #5e42c4;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+input[type="url"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+
+input[type="radio"] {
+  cursor: crosshair;
+}
+
+p {
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #0afc16;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  /*transition: background-color 0.3s; */
+  cursor: help;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #0afc16;
+}
+
+input[type="file"] {
+  display: none; /* Ocultar o input de arquivo padrão */
+}
+
+label[for="files"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  #0afc16;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 59px;
+}
+
+label[for="files"]:hover {
+  background-color:  #0afc16;
+}
+
+
+label[for="habilidade"] {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  display: block;
+}
+
+textarea#habilidade {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #5e42c4;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+textarea#habilidade::placeholder {
+  font-style: italic;
+  color: #888;
+}
+
+textarea#habilidade:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+
+/**/
